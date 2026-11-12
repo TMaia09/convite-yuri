@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Segurança: Impede que o Google indexe a página ou as fotos -->
-    <meta name="robots" content="noindex, nonofollow">
+    <meta name="robots" content="noindex, nofollow">
     <meta name="theme-color" content="#bc6c25">
     <title>1º Aninho do Yuri - A Arca de Noé</title>
     
@@ -146,6 +146,10 @@
             border-radius: 50%;
             overflow: hidden;
             border: 3px solid var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--accent-light);
         }
 
         .photo-container img {
@@ -226,7 +230,7 @@
 </head>
 <body>
 
-    <!-- Tela de Abertura com Proteção Opcional de Senha -->
+    <!-- Tela de Abertura com Senha de Segurança -->
     <div id="welcome-screen">
         <h1>O 1º Aninho do Yuri</h1>
         <p>Embarque com a gente nesta festa!</p>
@@ -240,10 +244,9 @@
             <h2>O Yuri vai crescer!</h2>
         </header>
 
-        <!-- Foto protegida por Base64 (Sem arquivo solto no servidor) -->
+        <!-- Foto -->
         <section class="card">
             <div class="photo-container">
-                <!-- Substitua o texto 'COLE_SEU_BASE64_AQUI' pela string gerada da foto se quiser usar -->
                 <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 24 24' fill='none' stroke='%23bc6c25' stroke-width='2'><path d='M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6'/></svg>" alt="Ícone Yuri">
             </div>
             <p style="color: var(--text-muted); font-size: 0.95rem;">Contamos com a sua presença para celebrar este momento mágico da nossa família!</p>
