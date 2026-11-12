@@ -11,7 +11,7 @@ export function initRsvp() {
         if (!name) return;
 
         // INSIRA SEU NUMERO DE WHATSAPP AQUI (DDI + DDD + Numero)
-        const phone = "5511999999999"; 
+        const phone = "12988057324"; 
         
         let text = `✨ *CONFIRMAÇÃO DE PRESENÇA* ✨\n\n`;
         text += `👤 *Nome:* ${name}\n`;
